@@ -12,11 +12,12 @@ const App = () => {
   const onCickSwichFlag = () => {
     setFaceShowFlag(!faceShowFlag);
   };
-
-  if (num % 3 === 0) {
-    faceShowFlag || setFaceShowFlag(true);
-  } else {
-    faceShowFlag && setFaceShowFlag(false);
+  if (num > 3) {
+    if (num % 3 === 0) {
+      faceShowFlag || setFaceShowFlag(true);
+    } else {
+      faceShowFlag && setFaceShowFlag(false);
+    }
   }
   return (
     <>
