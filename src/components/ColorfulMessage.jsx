@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColorfulMessage = () => {
+const ColorfulMessage = (props) => {
   const contentStyle = {
     color: "blue",
     fontSize: "18px"
