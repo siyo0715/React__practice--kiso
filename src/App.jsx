@@ -33,7 +33,7 @@ const App = () => {
       <br />
       <button onClick={onCickSwichFlag}>on/off</button>
       <p>{num}</p>
-      {faceShowFlag && <p>^_^</p>}
+      {faceShowFlag && <p>(^_^)</p>}
     </>
   );
 };
