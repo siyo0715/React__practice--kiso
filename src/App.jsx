@@ -4,7 +4,7 @@ const App = () => {
   const onClickButton = () => alert();
   return (
     <>
-      <h1>HelloWorld</h1>
+      <h1 style={{ color: "red" }}>HelloWorld</h1>
       <p>お元気ですか？</p>
       <button onClick={onClickButton}>ボタン</button>
     </>
